@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		52064775283A997800BA454D /* GifImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52064774283A997800BA454D /* GifImage.swift */; };
+		52064777283A999100BA454D /* record-player.gif in Resources */ = {isa = PBXBuildFile; fileRef = 52064776283A999000BA454D /* record-player.gif */; };
 		9A8E79362837842000DFEF3E /* TikTok_CloneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8E79352837842000DFEF3E /* TikTok_CloneApp.swift */; };
 		9A8E79382837842000DFEF3E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8E79372837842000DFEF3E /* ContentView.swift */; };
 		9A8E793A2837842300DFEF3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A8E79392837842300DFEF3E /* Assets.xcassets */; };
@@ -26,6 +28,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		52064774283A997800BA454D /* GifImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GifImage.swift; sourceTree = "<group>"; };
+		52064776283A999000BA454D /* record-player.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "record-player.gif"; sourceTree = "<group>"; };
 		9A8E79322837841F00DFEF3E /* TikTok.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TikTok.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A8E79352837842000DFEF3E /* TikTok_CloneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TikTok_CloneApp.swift; sourceTree = "<group>"; };
 		9A8E79372837842000DFEF3E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -57,6 +61,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		52064773283A993E00BA454D /* Dependency */ = {
+			isa = PBXGroup;
+			children = (
+				52064776283A999000BA454D /* record-player.gif */,
+				52064774283A997800BA454D /* GifImage.swift */,
+			);
+			path = Dependency;
+			sourceTree = "<group>";
+		};
 		9A8E79292837841E00DFEF3E = {
 			isa = PBXGroup;
 			children = (
@@ -76,6 +89,7 @@
 		9A8E79342837842000DFEF3E /* TikTok Clone */ = {
 			isa = PBXGroup;
 			children = (
+				52064773283A993E00BA454D /* Dependency */,
 				9A8E795E2837A44D00DFEF3E /* Model */,
 				9A8E794728378CA200DFEF3E /* Data */,
 				9A8E79372837842000DFEF3E /* ContentView.swift */,
@@ -195,6 +209,7 @@
 				9A8E79562837A34900DFEF3E /* video5.mp4 in Resources */,
 				9A8E79552837A34400DFEF3E /* video4.mp4 in Resources */,
 				9A8E79572837A34D00DFEF3E /* video6.mp4 in Resources */,
+				52064777283A999100BA454D /* record-player.gif in Resources */,
 				9A8E793A2837842300DFEF3E /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -208,6 +223,7 @@
 			files = (
 				9A8E79382837842000DFEF3E /* ContentView.swift in Sources */,
 				9A8E79362837842000DFEF3E /* TikTok_CloneApp.swift in Sources */,
+				52064775283A997800BA454D /* GifImage.swift in Sources */,
 				9A8E79592837A3E900DFEF3E /* HomeScreen.swift in Sources */,
 				9A8E795B2837A42500DFEF3E /* PlayerView.swift in Sources */,
 				9A8E79622837A72500DFEF3E /* Player.swift in Sources */,
@@ -352,6 +368,7 @@
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.7;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -384,6 +401,7 @@
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.7;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
